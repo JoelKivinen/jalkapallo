@@ -1,4 +1,9 @@
-div.row {
-	background-color: black;
-	color: white;
+.row {
+	margin-bottom: 10px;
+	border-top: 3px dashed grey;
+	margin-top: 25px;
+}
+div.keskitysleiri {
+text-align: center;
+font-size: 25px;
 }
