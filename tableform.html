@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="styletables.css" type="text/css"/>
+	<title>Tableforms</title>
+	<body>
+	<h2>Taulukot ja kaavakkeet</h2>
+	<table style="width:100%">
+	<caption>Vuoden säästöt</caption>
+	<tr>
+	<th>Kuukausi</th>
+	<th>Säästöjä</th>
+	<th>Joka toisen kuukauden säästöt</th>
+	<th>Yhteensä säästöjä</th>
+	</tr>
+	<tr>
+	<td>Tammikuu</td>
+	<td>20e</td>
+	<td rowspan="2">75e</td>
+	<td rowspan="12">375e</td>
+	</tr>
+	<tr>
+	<td>Helmikuu</td>
+	<td>55e</td>
+	</tr>
+	<tr>
+	<td>Maaliskuu</td>
+	<td>30e</td>
+	<td rowspan="2">75e</td>
+	</tr>
+	<tr>
+	<td>Huhtikuu</td>
+	<td>45e</td>
+	</tr>
+	<tr>
+	<td>Toukokuu</td>
+	<td>60e</td>
+	<td rowspan="2">75e</td>
+	</tr>
+	<tr>
+	<td>Kesäkuu</td>
+	<td>15e</td>
+	</tr>
+	<tr>
+	<td>Heinäkuu</td>
+	<td>5e</td>
+	<td rowspan="2">75e</td>
+	</tr>
+	<tr>
+	<td>Elokuu</td>
+	<td>70e</td>
+	</tr>
+	<tr>
+	<td>Syyskuu</td>
+	<td>0e</td>
+	<td rowspan="2">75e</td>
+	</tr>
+	<tr>
+	<td>Lokakuu</td>
+	<td>75e</td>
+	</tr>
+	<tr>
+	<td>Marraskuu</td>
+	<td>70e</td>
+	<td rowspan="2">75e</td>
+	</tr>
+	<tr>
+	<td>Joulukuu</td>
+	<td>5e</td>
+	</tr>
+	</table>
+	<br><br><br>
+	<form>
+	<label for="fname">Ensimmäinen nimi:</label><br>
+	<input type="text" id="fname" name="fname" value="Matti" required><br>
+	<label for="lname">Sukunimi:</label><br>
+	<input type="text" id="lname" name="lname" value="Meikäläinen" required><br>
+	<label for="email">Sähköposti:</label><br>
+	<input type="email" id="email" name="email" value="esimerkki@gmail.com" required><br>
+	<label for="tekstialue">Kirjoita teksti:</label><br>
+	<textarea id="tekstialue" name="tekstialue" rows="4" cols="80">
+	</textarea><br>
+	<label for="subscribe">Sign up for newsletter</label><br>
+	<input type="checkbox" id="subscribe" name="checkbox" value="Subscribe"><br>
+	<label for="cars">Valitse auto:</label><br>
+	<select id="cars" name="cars">
+	<option value="volvo">Volvo</option>
+	<option value="mercedes">Mercedes-Benz</option>
+	<option value="audi">Audi</option>
+	<option value="bmw">BMW</option>
+	</select><br><br>
+	<input type="submit" value="Add new user"><br>
+	</body>
+	</html>
