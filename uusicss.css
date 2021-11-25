@@ -1,0 +1,17 @@
+.navbar-item {
+background-color: black;
+color: white;
+}
+
+.h2 {
+	text-align: center;
+}
+.ekarivi {
+	border-bottom: dotted 2px;
+	padding: 5px;
+}
+.tokarivi {
+	margin-top: 5px;
+	border-bottom: dotted 2px;
+	padding: 5px;
+}
