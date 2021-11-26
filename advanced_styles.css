@@ -1,0 +1,28 @@
+.boksi {
+	border: 1px dotted;
+	padding: 10px;
+	box-shadow: 5px 10px;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-shadow:2px 2px grey;
+}
+.toinenboksi {
+	border:1px dotted;
+	padding: 10px;
+	background: url(apina.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+a:hover {
+	color: red;
+	background-color:black;
+	transition:2s;
+	
+}
